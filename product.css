@@ -77,12 +77,12 @@ html, body {
 }
 .footer-links a, a.footer-links, .underline-link{
   font-size: 14px;
-  text-decoration: underline solid transparent !important;
+  text-decoration: none !important;
   transition: all ease-in-out 0.2s;
 }
 .footer-links a:hover, a.footer-links:hover,.underline-link:hover{
   font-size: 14px;
-  text-decoration: underline solid currentColor !important;
+  text-decoration: underline solid #E3E9EC !important;
   opacity: 0.95 !important;
 }
 .display-6{
