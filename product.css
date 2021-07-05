@@ -433,3 +433,19 @@ p {
 }
 .element { pointer-events: none; }
 .element > a { text-decoration:none; color:inherit; }
+
+@media all and (max-width: 992px) {
+  .border-rad-mobile.tab-contact {
+    border-top-left-radius: 5px !important;
+  }
+  .border-rad-mobile.tab-aog {
+    border-top-right-radius: 5px !important;
+  }
+  }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
