@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Able Aerospace Services, A Textron Company</title>
+    <link href="../assets/images/favicon.png" rel="shortcut icon">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
+    <script src="https://kit.fontawesome.com/11bb1875c5.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+
+  </head>
+  <body>
+    
+    <div class="header sticky-top bg-dark">
+      <header class="d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mx-5 me-md-auto py-3">
+          <img src="/assets/images/able-logo-white.png" title="Able Aerospace Services" alt="Able Aerospace Services" height="40px">
+        </a>
+  
+        <!-- Large screens -->
+        <div class="col-md-auto d-none d-lg-block">
+        <div class="row justify-content-center mx-auto">
+        <span class="col-12 col-md-auto mb-md-0 tab-contact text-black">
+          <a target="_blank" href="http://www.ableaerospace.com/search" style="font-size: 13px;" class="py-2 px-0 mx-2 nav-link link-black">Create a Quote &nbsp; 1-855-350-ABLE</a>
+        </span>
+        <span class="col-12 col-md-auto mb-md-0 tab-aog text-white">
+          <a data-bs-toggle="modal" href="#ModalAOG" role="button" style="font-size: 13px;" class="py-2 px-0 mx-2 nav-link link-white">AOG?</a>
+        </span>
+        </div>
+        <div class="row">
+          <ul class="nav col-12 col-md-auto mx-5 mt-1 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">About Us</a></li>
+            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Rotor Wing</a></li>
+            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Fixed Wing</a></li>
+            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Specialized Services</a></li>
+            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Parts</a></li>
+          </ul>
+          </div>
+          </div>
+          <!-- Small screens -->
+          <div class="col-md-auto d-lg-none">
+              <ul class="nav col-12 col-md-auto mx-auto mx-sm-3 pt-sm-3 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">About Us</a></li>
+                <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Rotor Wing</a></li>
+                <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Fixed Wing</a></li>
+                <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Specialized Services</a></li>
+                <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Parts</a></li>
+                <li><a href="#" id="search-btn" class="nav-link px-0 py-2 mx-3 link-white"><i class="fa fa-search"></i></a></li>
+              </ul>
+          </div>
+      </header>
+    </div>
+
+<main>
+  <div class="modal fade" id="ModalAOG" aria-hidden="true" aria-labelledby="ModalAOG" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">AOG Support</h4>
+          <a href="" class="btn btn-sm btn-primary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body" style="font-size: 14px;">
+          Able understands the critical nature of AOG and is here to help 24 hours a day, seven days a week. Count on our customer service and maintenance experts to get your aircraft fixed and flying again.</p>
+          <div class="row mb-3">
+            <div class="col-md-auto mt-2">
+              <span class="font-caps text-primary font-strong">24/7 AOG Helpline</span>
+              <br>1-480-232-6062<br>
+            </div>
+            <div class="col-md-auto mt-2">
+              <span class="font-caps text-primary font-strong">24/7 AOG Email</span>
+              <br>AOGHelpDesk@AbleEngineering.com<br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-auto">
+              <span class="font-caps text-primary font-strong">Hours of Operation</span>
+              <br>Monday – Friday ... 5:30 p.m. – 5:30 a.m.
+              <br>Saturday & Sunday ... 24 Hours
+              <br><small class="text-muted">U.S. Mountain Standard Time</small>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer text-muted py-2" style="font-size: 14px;">
+          <small>The Able Help Desk is for hard grounded AOG fixed-wing and rotor-wing aircraft. For non-emergency needs or for AOG assistance during regular business hours, please contact Able at <span class="font-strong">1-855-350-ABLE</span> or <span class="font-strong">Sales@AbleEngineering.com</span>.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="position-relative overflow-hidden p-md-5 m-md-3 text-center text-white hero-home">
+    <div class="col-md-5 p-lg-5 mx-auto my-5 w-auto">
+      <div class="py-4 my-5">
+        <h1 class="font-header font-caps display-3 px-5 mb-3">Safely reduce your aircraft operating costs</h1>
+        <div class="col-lg-4 col-8 mx-auto">
+          <form autocomplete="off" method="GET" action="https://kittyhawk.ableengineering.com/kittyhawk/search/general-search">
+          <div class="input-group mb-3">
+            <input style="font-size: 14px !important;" name="q" id="field-keyword" type="text" class="form-control border-white" placeholder="Search Keyword or Part No." aria-label="Search Keyword or P/N">
+            <div class="input-group-append">
+              <button class="btn search-btn border-white bg-white shadow-none" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Larger Screens -->
+  <div class="d-none d-lg-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="d-flex bg-light me-md-3 py-3 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/repairs.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">Repairs &amp; Overhauls</h5>
+        <p>Able offers more than 10,000 FAA approved, out of scope and proprietary repairs for fixed-wing and rotor-wing fleets. Count on us to restore your components to their original form, fit and function at a fraction of the cost of new.</p>
+        <a href="#" class="link-dark py-2 px-0 mx-auto mt-auto mb-2">Learn More &rarr;</a>
+      </div>
+    </div>
+    <div class="d-flex bg-light me-md-3 py-3 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/amc.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">Maintenance Center</h5>
+        <p>The Able Maintenance Center – or AMC – offers experts specializing in all aspects of helicopter completions, ranging from avionics upgrades to top-quality paint services.</p>
+        <a href="#" class="link-dark py-2 px-0 mx-auto mt-auto mb-2">Learn More &rarr;</a>
+      </div>
+    </div>
+    <div class="d-flex bg-light me-md-3 py-3 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/parts.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">Replacement Parts</h5>
+        <p>We offer high-quality, FAA approved replacement parts. Another way to lower operating costs and end downtime.</p>
+        <a href="#" class="link-dark py-2 px-0 mx-auto mt-auto mb-2">Learn More &rarr;</a>
+      </div>
+    </div>
+    <div class="d-flex bg-light me-md-3 py-3 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/aog.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">AOG Help Desk</h5>
+        <p>Able understands AOG and is here with 24/7 support. Contact our customer service department during regular business hours or use the Able AOG Help Desk for <span class="font-strong">after-hours</span> and <span class="font-strong">weekend</span> needs. We’ll get you back in the air!</p>
+        <a href="#" class="link-dark py-2 px-0 mx-auto mt-auto mb-2">Learn More &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Smaller Screens -->
+  <div class="d-lg-none d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="d-flex bg-light me-md-3 py-3 pt-5 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/repairs.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">Repairs &amp; Overhauls</h5>
+        <p>Able offers more than 10,000 FAA approved, out of scope and proprietary repairs for fixed-wing and rotor-wing fleets. Count on us to restore your components to their original form, fit and function at a fraction of the cost of new.</p>
+        <a class="btn btn-sm btn-primary w-50 mx-auto mt-auto">Learn More &rarr;</a>
+      </div>
+    </div>
+    <div class="d-flex bg-light me-md-3 py-3 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/amc.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">Maintenance Center</h5>
+        <p>The Able Maintenance Center – or AMC – offers experts specializing in all aspects of helicopter completions, ranging from avionics upgrades to top-quality paint services.</p>
+        <a class="btn btn-sm btn-primary w-50 mx-auto mt-auto">Learn More &rarr;</a>
+      </div>
+    </div>
+  </div>
+  <div class="d-lg-none d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="d-flex bg-light me-md-3 py-3 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/parts.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">Replacement Parts</h5>
+        <p>We offer high-quality, FAA approved replacement parts. Another way to lower operating costs and end downtime.</p>
+        <a class="btn btn-sm btn-primary w-50 mx-auto mt-auto">Learn More &rarr;</a>
+      </div>
+    </div>
+    <div class="d-flex bg-light me-md-3 py-3 pb-5 px-3 py-md-3 px-md-5 text-center overflow-hidden">
+      <div class="align-self-top d-flex flex-column">
+        <img src="/assets/images/aog.png" width="50px" class="mx-auto my-3">
+        <h5 class="display-6 font-header font-caps">AOG Help Desk</h5>
+        <p>Able understands AOG and is here with 24/7 support. Contact our customer service department during regular business hours or use the Able AOG Help Desk for <span class="font-strong">after-hours</span> and <span class="font-strong">weekend</span> needs. We’ll get you back in the air!</p>
+        <a class="btn btn-sm btn-primary w-50 mx-auto mt-auto">Learn More &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="d-flex bg-dark me-md-3 py-5 py-md-5 text-center text-white overflow-hidden">
+      <div class="align-self-center w-100 mx-auto">
+        <div class="w-md-50 mx-auto px-3 px-md-4">
+          <h5 class="display-5 font-header font-caps">Safe and Certified</h5>
+          <p>View the certifications Able has received from each organization by clicking the respective icon.</p>
+        </div>
+        <div class="certifications slider py-3">
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalFAA"><img src="../assets/images/faa.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalEASA"><img src="../assets/images/easa.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalCAAC"><img src="../assets/images/caac.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalCAAT"><img src="../assets/images/caat.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalAirbus"><img src="../assets/images/airbus.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalCathay"><img src="../assets/images/cathay.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalJCAB"><img src="../assets/images/jcab.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalBrazil"><img src="../assets/images/brazil.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalNADCAP"><img src="../assets/images/nadcap.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalBell"><img src="../assets/images/bell.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalLeonardo"><img src="../assets/images/leonardo.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalDGCA"><img src="../assets/images/dgca.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalECAA"><img src="../assets/images/ecaa.png"></a></div>
+          <div class="slide"><a data-bs-toggle="modal" href="#ModalChile"><img src="../assets/images/chile.png"></a></div>
+        </div>
+        <div class="slider__arrows"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals for Certifications -->
+  <!--FAA--> <div class="modal fade" id="ModalFAA" aria-hidden="true" aria-labelledby="ModalFAA" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">FAA (U.S.)</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">FAA Certificate</span><br>
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">FAA Operation Spec</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--EASA--> <div class="modal fade" id="ModalEASA" aria-hidden="true" aria-labelledby="ModalEASA" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">EASA (Europe)</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">EASA Continuation Letter & Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CAAC--> <div class="modal fade" id="ModalCAAC" aria-hidden="true" aria-labelledby="ModalCAAC" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">CAAC (China)</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">CAAC Maintenance Organization Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CAAT--> <div class="modal fade" id="ModalCAAT" aria-hidden="true" aria-labelledby="ModalCAAT" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">CAAT (Thailand)</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Thailand CAAT Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Airbus--> <div class="modal fade" id="ModalAirbus" aria-hidden="true" aria-labelledby="ModalAirbus" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">Airbus Helicopters</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Airbus Helicopter Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cathay--> <div class="modal fade" id="ModalCathay" aria-hidden="true" aria-labelledby="ModalCathay" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">Cathay Pacific</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Cathay Pacific Certification</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--JCAB--> <div class="modal fade" id="ModalJCAB" aria-hidden="true" aria-labelledby="ModalJCAB" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">JCAB (Japan)</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">JCAB Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Brazil--> <div class="modal fade" id="ModalBrazil" aria-hidden="true" aria-labelledby="ModalBrazil" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">Brazilian Navy</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Brazilian Navy Approval Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--NADCAP--> <div class="modal fade" id="ModalNADCAP" aria-hidden="true" aria-labelledby="ModalNADCAP" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">NADCAP</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">AS9100 / AS9110 / ISO9001</span><br>
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Nadcap-NDT</span><br> 
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Nadcap-Surface Enhancement</span><br> 
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Nadcap-Chemical Processing</span>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Bell--> <div class="modal fade" id="ModalBell" aria-hidden="true" aria-labelledby="ModalBell" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">Bell</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Bell Certified Service Center</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Leonardo--> <div class="modal fade" id="ModalLeonardo" aria-hidden="true" aria-labelledby="ModalLeonardo" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">Leonardo</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Leonardo Helicopters Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--DGCA--> <div class="modal fade" id="ModalDGCA" aria-hidden="true" aria-labelledby="ModalDGCA" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">DGCA (India)</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Directorate General of Civil Aviation</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--ECAA--> <div class="modal fade" id="ModalECAA" aria-hidden="true" aria-labelledby="ModalECAA" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">ECAA (Egypt)</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Egyptian Civil Aviation Authority Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Chile--> <div class="modal fade" id="ModalChile" aria-hidden="true" aria-labelledby="ModalChile" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header py-2">
+          <h4 class="modal-title font-header font-caps">Chilean Air Force</h4>
+          <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+        </div>
+        <div class="modal-body text-left text-muted">
+          <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;" class="font-strong align-middle">Chilean Air Force Certificate</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Certifications Modals -->
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="d-flex bg-white me-md-3 py-5 px-4 py-md-5 px-md-5 text-center overflow-hidden">
+      <div class="align-self-center w-75 mx-auto">
+        <h5 class="display-5 font-header font-caps">Only Able</h5>
+        <p class="px-2 px-md-5">Able provides customers with the most options for maintaining their aircraft. Our team of seasoned engineers introduces dozens of repair, overhaul and approved replacement parts solutions each month, and our repair experts provide full-circle maintenance service through our new, state-of-the-art facility.</p><p class="px-2 px-md-5">With more than 95 percent of our work completed on-site, Able drives unit costs remarkably low and passes those savings on to our customers. Plus, with an impressive inventory of piece parts and higher assemblies, we can service your aircraft from top to tail.</p>
+        <p class="font-strong text-primary">Save money. Save time. Keep flying. That’s the Able way.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="d-flex bg-light me-md-3 py-5 py-md-5 text-center overflow-hidden">
+      <div class="align-self-center w-100 mx-auto">
+        <div class="w-md-50 mx-auto px-3 px-md-4">
+          <h5 class="display-5 font-header font-caps">See What We Can Do</h5>
+          <p>With a wide range of solutions and capabilities, Able has your aircraft covered from top to tail.</p>
+        </div>
+        <div class="solutions slider py-3">
+          <div class="slide"><img src="../assets/images/amc-badge.png"></div>
+          <div class="slide"><img src="../assets/images/rw-repair-badge.png"></div>
+          <div class="slide"><img src="../assets/images/fw-repair-badge.png"></div>
+          <div class="slide"><img src="../assets/images/parts-badge.png"></div>
+          <div class="slide"><img src="../assets/images/plating-badge.png"></div>
+          <div class="slide"><img src="../assets/images/machine-badge.png"></div>
+          <div class="slide"><img src="../assets/images/paint-badge.png"></div>
+          <div class="slide"><img src="../assets/images/ndt-badge.png"></div>
+          <div class="slide"><img src="../assets/images/hydraulics-badge.png"></div>
+          <div class="slide"><img src="../assets/images/bearings-badge.png"></div>
+          <div class="slide"><img src="../assets/images/coldspray-badge.png"></div>
+          <div class="slide"><img src="../assets/images/govt-badge.png"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="border-top border-strong bg-dark text-light">
+<footer class="mx-5 py-5">
+  <div class="row">
+    <div class="col-md-5 col-12 mb-4 mb-md-0">
+      <a class="text-light" href="https://www.facebook.com/pages/Able-Aerospace-Services/358675050891037"><i class="fa fa-facebook-square" style="font-size: 24px;"></i></a>
+      <a class="text-light" href="https://twitter.com/AbleEngineering"><i class="fa fa-twitter-square mx-1" style="font-size: 24px;"></i></a>
+      <a class="text-light" href="http://www.linkedin.com/company/able-engineering-and-component-services"><i class="fab fa-linkedin" style="font-size: 24px;"></i></a>
+      <small class="d-block mt-2 mb-0 text-light font-strong">&copy; 2021 Able Aerospace Services, A Textron Company</small>
+      <small class="d-block mb-3 text-light-muted">A1LR190N - EASA 145.4010 - AS9100 - AS9110 - ISO9001:2008 Certified</small>
+      <small class="d-block mb-3 text-light-muted">7706 East Velocity Way<br>Mesa, Arizona 85212</small>
+      <small class="d-block text-light-muted">(602) 304-1227 Phone<br>(602) 304-1277 Fax<br><a class="footer-links link-light" href="mailto:info@ableengineering.com">info@ableengineering.com</a></small>
+    </div>
+    <div class="col-md-2 col-12 mb-3 mb-md-0">
+      <h5 class="font-header font-caps">Services</h5>
+      <ul class="list-unstyled footer-links">
+        <li><a class="link-light-muted" href="#">Rotor Wing</a></li>
+        <li><a class="link-light-muted" href="#">Fixed Wing</a></li>
+        <li><a class="link-light-muted" href="#">Replacement Parts</a></li>
+        <li><a class="link-light-muted" href="#">Specialized Services</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3 col-12 mb-3 mb-md-0">
+      <h5 class="font-header font-caps">Resources</h5>
+      <ul class="list-unstyled footer-links">
+        <li><a class="link-light-muted" href="https://www.ableengineering.com/wp-content/uploads/2017/03/Warranties_4-6-16.pdf">Warranty Details (04-06-16)</a></li>
+        <li><a class="link-light-muted" href="https://www.ableengineering.com/wp-content/uploads/2021/05/AbleAerospaceServicesPOTerms-2-27-20.pdf">PO Terms and Conditions</a></li>
+        <li><a class="link-light-muted" href="https://www.ableengineering.com/wp-content/uploads/2018/02/Able-Supplement-PO-Terms-and-Conditions_1-29-18.pdf">Able Supplement I</a></li>
+        <li><a class="link-light-muted" href="https://www.ableengineering.com/ca-transparency-in-supply-chains-act/">California Transparency in Supply Chains Act</a></li>
+        <li><a class="link-light-muted" href="https://www.ableengineering.com/ica/">Instructions for Continued Airworthiness (ICAs)</a></li>
+      </ul>
+    </div>
+    <div class="col-md-2 col-12 mb-3 mb-md-0">
+      <h5 class="font-header font-caps">Company</h5>
+      <ul class="list-unstyled footer-links">
+        <li><a class="link-light-muted" href="#">Contact</a></li>
+        <li><a class="link-light-muted" href="#">Press &amp; Media</a></li>
+        <li><a class="link-light-muted" href="https://able.four51ordercloud.com/store/catalog">Online Store</a></li>
+        <li><a class="link-light-muted" href="https://textron.taleo.net/careersection/able/jobsearch.ftl">Careers</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>  
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="../assets/dist/js/styling.js"></script>
+  </body>
+</html>
