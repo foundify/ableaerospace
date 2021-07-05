@@ -49,3 +49,12 @@ $(document).ready(function(){
         }]
     });
 });
+
+$(document).ready(function () {
+    $(".navbar-toggler").on("click", function () {
+          $(".open").toggleClass("hidden");
+          $(".open").toggleClass("visible");
+          $(".close").toggleClass("visible");
+          $(".close").toggleClass("hidden");
+    });
+});
