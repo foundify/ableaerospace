@@ -138,6 +138,13 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media all and (max-width: 992px) {
+.hero-home{
+  background-position-y: top;
+  background-position-x: center;
+  min-height: 550px;
+}
+}
 .border-white {
   border: 3px solid #FFFFFF !important;
 }
