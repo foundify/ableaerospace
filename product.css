@@ -431,3 +431,5 @@ p {
   position: absolute;
   bottom: 0;
 }
+.element { pointer-events: none; }
+.element > a { text-decoration:none; color:inherit; }
