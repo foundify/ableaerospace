@@ -14,6 +14,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
   <style>
     .bd-placeholder-img {
@@ -40,38 +41,44 @@
 
 <body>
   <header>
-  <nav class="header navbar navbar-expand-lg sticky-top bg-dark py-0 px-0 container-fluid">
-    <a href="/" class="d-flex align-items-center mx-md-5 mx-3 me-md-auto py-3">
-      <img src="/assets/images/able-logo-white.png" title="Able Aerospace Services" alt="Able Aerospace Services" height="40px">
-    </a>
-    <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMenu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span style="font-size: 15px;" class="font-header font-caps text-light open visible">Menu <i class="fas fa-caret-down"></i></span>
-      <span style="font-size: 15px;" class="font-header font-caps text-light close hidden">Close <i class="fas fa-caret-up"></i></span>
-    </button>
-    <div class="flex-column collapse navbar-collapse" id="toggleMenu">
-      <div class="ms-md-auto">
-        <div class="row justify-content-center mx-auto">
-          <span class="col-auto mb-md-0 tab-contact border-rad-mobile text-black">
-            <a target="_blank" href="http://www.ableaerospace.com/search" style="font-size: 13px;"
-              class="py-2 px-0 mx-2 nav-link link-black">Create a Quote &nbsp; 1-855-350-ABLE</a>
-          </span>
-          <span class="col-auto mb-md-0 tab-aog border-rad-mobile text-white">
-            <a data-bs-toggle="modal" href="#ModalAOG" role="button" style="font-size: 13px;"
-              class="py-2 px-0 mx-2 nav-link link-white">AOG?</a>
-          </span>
-        </div>
-        <div class="row">
-          <ul class="navbar-nav text-center col-auto mx-lg-5 mx-auto mt-1 mb-md-0">
-            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">About Us</a></li>
-            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Rotor Wing</a></li>
-            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Fixed Wing</a></li>
-            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Specialized Services</a></li>
-            <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Parts</a></li>
-          </ul>
+    <nav class="header navbar navbar-expand-lg sticky-top bg-dark py-0 px-0 container-fluid">
+      <a href="/" class="d-flex align-items-center mx-md-5 mx-3 me-md-auto py-3">
+        <img src="/assets/images/able-logo-white.png" title="Able Aerospace Services" alt="Able Aerospace Services"
+          height="40px">
+      </a>
+      <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMenu"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="font-size: 15px;" class="font-header font-caps text-light open visible">Menu <i
+            class="bi bi-caret-down-fill"></i>
+        </span>
+        <span style="font-size: 15px;" class="font-header font-caps text-light close hidden">Close <i
+            class="bi bi-caret-up-fill"></i>
+        </span>
+      </button>
+      <div class="flex-column collapse navbar-collapse" id="toggleMenu">
+        <div class="ms-md-auto">
+          <div class="row justify-content-center mx-auto">
+            <span class="col-auto mb-md-0 tab-contact border-rad-mobile text-black">
+              <a target="_blank" href="http://www.ableaerospace.com/search" style="font-size: 13px;"
+                class="py-2 px-0 mx-2 nav-link link-black">Create a Quote &nbsp; 1-855-350-ABLE</a>
+            </span>
+            <span class="col-auto mb-md-0 tab-aog border-rad-mobile text-white">
+              <a data-bs-toggle="modal" href="#ModalAOG" role="button" style="font-size: 13px;"
+                class="py-2 px-0 mx-2 nav-link link-white">AOG?</a>
+            </span>
+          </div>
+          <div class="row">
+            <ul class="navbar-nav text-center col-auto mx-lg-5 mx-auto mt-1 mb-md-0">
+              <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">About Us</a></li>
+              <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Rotor Wing</a></li>
+              <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Fixed Wing</a></li>
+              <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Specialized Services</a></li>
+              <li><a href="#" class="nav-link px-0 py-2 mx-3 link-white">Parts</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
   </header>
 
@@ -81,7 +88,8 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">AOG Support</h4>
-            <a href="" class="btn btn-sm btn-primary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-primary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body" style="font-size: 14px;">
             Able understands the critical nature of AOG and is here to help 24 hours a day, seven days a week. Count on
@@ -107,23 +115,28 @@
           </div>
           <div class="modal-footer text-muted py-2" style="font-size: 14px;">
             <small>The Able Help Desk is for hard grounded AOG fixed-wing and rotor-wing aircraft. For non-emergency
-              needs or for AOG assistance during regular business hours, please contact Able at <span class="font-strong">1-855-350-ABLE</span> or <span class="font-strong">Sales@AbleEngineering.com</span>.</small>
+              needs or for AOG assistance during regular business hours, please contact Able at <span
+                class="font-strong">1-855-350-ABLE</span> or <span
+                class="font-strong">Sales@AbleEngineering.com</span>.</small>
           </div>
         </div>
       </div>
     </div>
 
     <div class="d-flex position-relative overflow-hidden p-md-5 m-md-3 text-center text-white hero-home">
-      <div class="d-flex align-items-center col-12 p-lg-5 mx-auto my-5">
+      <div class="align-items-center col-12 p-lg-5 mx-auto my-5">
         <div class="py-4 my-5">
           <h1 class="font-header font-caps display-3 px-5 mb-3">Safely reduce your aircraft operating costs</h1>
           <div class="col-lg-4 col-8 mx-auto">
             <form autocomplete="off" method="GET"
               action="https://kittyhawk.ableengineering.com/kittyhawk/search/general-search">
               <div class="input-group mb-3">
-                <input style="font-size: 14px !important;" name="q" id="field-keyword" type="text" class="form-control border-white" placeholder="Search Keyword or Part No." aria-label="Search Keyword or P/N">
+                <input style="font-size: 14px !important;" name="q" id="field-keyword" type="text"
+                  class="form-control border-white" placeholder="Search Keyword or Part No."
+                  aria-label="Search Keyword or P/N">
                 <div class="input-group-append">
-                  <button class="btn search-btn border-white bg-white shadow-none" type="submit"><i class="fa fa-search"></i></button>
+                  <button class="btn search-btn border-white bg-white shadow-none" type="submit"><i
+                      class="fa fa-search"></i></button>
                 </div>
               </div>
             </form>
@@ -225,36 +238,51 @@
             <h5 class="display-5 font-header font-caps">Safe and Certified</h5>
             <p>View the certifications Able has received from each organization by clicking the respective icon.</p>
           </div>
-          <div class="certifications slider py-3">
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalFAA"><img src="../assets/images/faa.png"></a></div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalEASA"><img src="../assets/images/easa.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalCAAC"><img src="../assets/images/caac.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalCAAT"><img src="../assets/images/caat.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalAirbus"><img src="../assets/images/airbus.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalCathay"><img src="../assets/images/cathay.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalJCAB"><img src="../assets/images/jcab.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalBrazil"><img src="../assets/images/brazil.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalNADCAP"><img src="../assets/images/nadcap.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalBell"><img src="../assets/images/bell.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalLeonardo"><img
-                  src="../assets/images/leonardo.png"></a></div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalDGCA"><img src="../assets/images/dgca.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalECAA"><img src="../assets/images/ecaa.png"></a>
-            </div>
-            <div class="slide"><a data-bs-toggle="modal" href="#ModalChile"><img src="../assets/images/chile.png"></a>
+          <div class="container">
+            <div class="certifications row justify-content-center py-3">
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalFAA"><img src="../assets/images/faa.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalEASA"><img
+                    src="../assets/images/easa.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalCAAC"><img
+                    src="../assets/images/caac.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalCAAT"><img
+                    src="../assets/images/caat.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalAirbus"><img
+                    src="../assets/images/airbus.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalCathay"><img
+                    src="../assets/images/cathay.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalJCAB"><img
+                    src="../assets/images/jcab.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalBrazil"><img
+                    src="../assets/images/brazil.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalNADCAP"><img
+                    src="../assets/images/nadcap.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalBell"><img
+                    src="../assets/images/bell.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalLeonardo"><img
+                    src="../assets/images/leonardo.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalDGCA"><img
+                    src="../assets/images/dgca.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalECAA"><img
+                    src="../assets/images/ecaa.png"></a>
+              </div>
+              <div class="col-auto"><a data-bs-toggle="modal" href="#ModalChile"><img
+                    src="../assets/images/chile.png"></a>
+              </div>
             </div>
           </div>
-          <div class="slider__arrows"></div>
         </div>
       </div>
     </div>
@@ -266,13 +294,14 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">FAA (U.S.)</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">FAA Certificate</span><br>
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">FAA Operation Spec</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">FAA Certificate</span><br>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">FAA Operation Spec</span>
             </ul>
           </div>
         </div>
@@ -284,11 +313,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">EASA (Europe)</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">EASA Continuation Letter & Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">EASA Continuation Letter & Certificate</span>
             </ul>
           </div>
         </div>
@@ -300,11 +330,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">CAAC (China)</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">CAAC Maintenance Organization Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">CAAC Maintenance Organization Certificate</span>
             </ul>
           </div>
         </div>
@@ -316,11 +347,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">CAAT (Thailand)</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Thailand CAAT Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Thailand CAAT Certificate</span>
             </ul>
           </div>
         </div>
@@ -332,11 +364,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">Airbus Helicopters</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Airbus Helicopter Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Airbus Helicopter Certificate</span>
             </ul>
           </div>
         </div>
@@ -348,11 +381,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">Cathay Pacific</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Cathay Pacific Certification</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Cathay Pacific Certification</span>
             </ul>
           </div>
         </div>
@@ -364,11 +398,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">JCAB (Japan)</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">JCAB Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">JCAB Certificate</span>
             </ul>
           </div>
         </div>
@@ -380,11 +415,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">Brazilian Navy</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Brazilian Navy Approval Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Brazilian Navy Approval Certificate</span>
             </ul>
           </div>
         </div>
@@ -396,17 +432,18 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">NADCAP</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">AS9100 / AS9110 / ISO9001</span><br>
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Nadcap-NDT</span><br>
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Nadcap-Surface Enhancement</span><br>
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Nadcap-Chemical Processing</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">AS9100 / AS9110 / ISO9001</span><br>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Nadcap-NDT</span><br>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Nadcap-Surface Enhancement</span><br>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Nadcap-Chemical Processing</span>
             </ul>
           </div>
         </div>
@@ -418,11 +455,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">Bell</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Bell Certified Service Center</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Bell Certified Service Center</span>
             </ul>
           </div>
         </div>
@@ -434,11 +472,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">Leonardo</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Leonardo Helicopters Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Leonardo Helicopters Certificate</span>
             </ul>
           </div>
         </div>
@@ -450,11 +489,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">DGCA (India)</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Directorate General of Civil Aviation</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Directorate General of Civil Aviation</span>
             </ul>
           </div>
         </div>
@@ -466,11 +506,13 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">ECAA (Egypt)</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Egyptian Civil Aviation Authority Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Egyptian Civil Aviation Authority
+              Certificate</span>
             </ul>
           </div>
         </div>
@@ -482,11 +524,12 @@
         <div class="modal-content">
           <div class="modal-header py-2">
             <h4 class="modal-title font-header font-caps">Chilean Air Force</h4>
-            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</a>
+            <a href="" class="btn btn-sm btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close <i
+                class="bi bi-x"></i></a>
           </div>
           <div class="modal-body text-left text-muted">
-            <i style="font-size: 22px;" class="align-middle mx-2 fas fa-file-pdf"></i><span style="font-size: 16px;"
-              class="font-strong align-middle">Chilean Air Force Certificate</span>
+            <i style="font-size: 20px;" class="mx-1 align-middle bi bi-file-earmark-pdf-fill"></i><span
+              style="font-size: 16px;" class="font-strong align-middle">Chilean Air Force Certificate</span>
             </ul>
           </div>
         </div>
@@ -496,7 +539,7 @@
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
       <div class="d-flex bg-white me-md-3 py-5 px-4 py-md-5 px-md-5 text-center overflow-hidden">
-        <div class="align-self-center w-100 px-md-5 px-3 mx-auto">
+        <div class="container align-self-center w-100 px-md-5 px-3 mx-auto">
           <h5 class="display-5 font-header font-caps">Only Able</h5>
           <p class="px-2 px-md-5">Able provides customers with the most options for maintaining their aircraft. Our team
             of seasoned engineers introduces dozens of repair, overhaul and approved replacement parts solutions each
