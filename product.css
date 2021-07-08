@@ -246,7 +246,7 @@ p {
 /* Slider */
 
 .slick-slide {
-  margin: 0px 10px;
+  margin: 0px auto;
 }
 
 .slick-slide img {
