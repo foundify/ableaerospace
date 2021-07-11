@@ -262,6 +262,7 @@ p {
 
 .slick-slide {
   margin: 0px auto;
+  outline: none !important;
 }
 
 .slick-slide img {
@@ -571,4 +572,11 @@ p {
 
 .visible {
   display: block;
+}
+.down-tri {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 35px 0 35px;
+  border-color: #e3e9ec transparent transparent transparent;
 }
