@@ -300,20 +300,18 @@ p {
   padding: 0 70px !important;
 }
 
+@media all and (max-width: 1024px) {
+.solutions-nav .slick-slide img {
+  padding: 0 5px 0 5px !important;
+}
+}
+
 .solutions-content .slick-list {
   position: relative;
   display: block;
   overflow: hidden;
   margin: 0;
   padding: 0 !important;
-}
-
-.certifications .slick-list {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  margin: 0;
-  padding-left: 10px;
 }
 
 .slick-list:focus {
@@ -552,7 +550,7 @@ p {
   color: inherit;
 }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
   .border-rad-mobile.tab-contact {
     border-top-left-radius: 5px !important;
   }

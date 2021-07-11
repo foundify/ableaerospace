@@ -40,11 +40,6 @@ $(document).ready(function () {
             settings: {
                 slidesToShow: 3
             }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
         }]
     });
 });
