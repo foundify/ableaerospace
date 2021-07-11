@@ -186,12 +186,14 @@ p {
   background-size: cover;
   background-position-y: 30%;
   background-position-x: center;
+  text-align: left;
 }
 
 @media all and (max-width: 992px) {
   .hero-solutions {
     background-position-y: 20%;
     background-position-x: center;
+    text-align: center;
   }
 }
 
