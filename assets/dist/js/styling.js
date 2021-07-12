@@ -34,6 +34,7 @@ $(document).ready(function () {
         speed:600,
         focusOnSelect: true,
         draggable: true,
+        initialSlide: initialSlide,
         asNavFor: '.solutions-content',
         responsive: [{
             breakpoint: 768,
@@ -55,9 +56,29 @@ $(document).ready(function () {
         speed:600,
         dots: false,
         draggable: false,
+        initialSlide: initialSlide,
         asNavFor: '.solutions-nav',
     });
 });
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+
+var initialSlide = getUrlParameter('initialSlide');
+
 
 
 $(document).ready(function () {
