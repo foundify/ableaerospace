@@ -302,8 +302,9 @@ p {
 }
 
 @media all and (max-width: 1024px) {
-.solutions-nav .slick-slide img {
+.solutions-nav .slick-slide img, .solutions .slick-slide img {
   padding: 0 5px 0 5px !important;
+  outline: none !important;
 }
 }
 
@@ -316,7 +317,7 @@ p {
 }
 
 .slick-list:focus {
-  outline: none;
+  outline: none !important;
 }
 
 .slick-list.dragging {
