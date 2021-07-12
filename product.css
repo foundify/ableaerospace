@@ -308,6 +308,10 @@ p {
 }
 }
 
+.solutions a {
+  outline: none !important;
+}
+
 .solutions-content .slick-list {
   position: relative;
   display: block;
