@@ -51,6 +51,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: false,
+        adaptiveHeight: true,
         swipeToSlide: true,
         arrows: false,
         speed:600,
