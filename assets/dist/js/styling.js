@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.solutions').slick({
         centerMode: true,
-        slidesToShow: 9,
+        slidesToShow: 10,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2500,
@@ -58,6 +58,12 @@ $(document).ready(function () {
         draggable: false,
         initialSlide: initialSlide,
         asNavFor: '.solutions-nav',
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
     });
 });
 
