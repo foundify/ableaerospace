@@ -1,10 +1,9 @@
-/* Color Palette was made accessible using: https://toolness.github.io/accessible-color-matrix/?n=white&n=light&n=primary&n=mute&n=dark&n=black&v=FFFFFF&v=E3E9EC&v=AF5C51&v=6F6F6F&v=375E77&v=000000 */
-
+/* Color Palette was made accessible using: https://toolness.github.io/accessible-color-matrix/?n=white&n=light&n=muted&n=primary&n=black&v=FFFFFF&v=E6E8EB&v=6A7783&v=1050A4&v=000000 */
 .container {
   max-width: 960px;
 }
 
-html, body {
+body {
   overflow-x: hidden;
 }
 
@@ -53,11 +52,11 @@ html, body {
 }
 
 .text-primary, .link-primary {
-  color: #AF5C51 !important;
+  color: #1050A4 !important;
 }
 
 .text-muted, .link-muted {
-  color: #6F6F6F !important;
+  color: #4A626D !important;
 }
 
 .text-light-muted, .link-light-muted {
@@ -66,7 +65,7 @@ html, body {
 }
 
 .text-dark, .link-dark {
-  color: #375E77 !important;
+  color: #1050A4 !important;
 }
 
 .text-black, .link-black {
@@ -83,7 +82,7 @@ html, body {
 }
 
 .link-primary:hover, .link-primary:focus, .link-primary:active {
-  color: #C5746A !important;
+  color: #0E4894 !important;
 }
 
 .font-header {
@@ -125,19 +124,19 @@ p {
 }
 
 .bg-light {
-  background-color: #E3E9EC !important;
+  background-color: #E6E8EB !important;
 }
 
 .bg-primary {
-  background-color: #AF5C51 !important;
+  background-color: #1050A4 !important;
 }
 
 .bg-muted {
-  background-color: #6F6F6F !important;
+  background-color: #4A626D !important;
 }
 
 .bg-dark {
-  background-color: #375e77 !important;
+  background-color: #0D294E !important;
 }
 
 .bg-black {
@@ -145,7 +144,7 @@ p {
 }
 
 .border-bottom {
-  border-color: #375E77 !important;
+  border-color: #1050A4 !important;
 }
 
 .border-top {
@@ -153,7 +152,7 @@ p {
 }
 
 .tab-contact {
-  background-color: #E3E9EC;
+  background-color: #6A7783;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 0px;
   border: 0px;
@@ -162,7 +161,7 @@ p {
 }
 
 .tab-aog {
-  background-color: #AF5C51;
+  background-color: #AB3536;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 5px;
   border: 0px;
@@ -171,7 +170,7 @@ p {
 }
 
 .hero-home {
-  background: linear-gradient(rgba(55, 94, 119, 0.35), rgba(55, 94, 119, 0.55), rgba(55, 94, 119, 0.8), rgba(55, 94, 119, 0.55), rgba(55, 94, 119, 0.35)), url(/assets/images/hero-front.jpeg);
+  background: linear-gradient(rgba(13, 41, 78, 0.3), rgba(13, 41, 78, 0.4), rgba(13, 41, 78, 0.55), rgba(13, 41, 78, 0.4), rgba(13, 41, 78, 0.3)), url(/assets/images/hero-front.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -185,7 +184,7 @@ p {
 }
 
 .hero-solutions {
-  background: linear-gradient(rgba(55, 94, 119, 0.35), rgba(55, 94, 119, 0.55), rgba(55, 94, 119, 0.8), rgba(55, 94, 119, 0.55), rgba(55, 94, 119, 0.35)), url(/assets/images/shop-floor.jpeg);
+  background: linear-gradient(rgba(13, 41, 78, 0.3), rgba(13, 41, 78, 0.4), rgba(13, 41, 78, 0.55), rgba(13, 41, 78, 0.4), rgba(13, 41, 78, 0.3)), url(/assets/images/shop-floor.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 30%;
@@ -209,25 +208,25 @@ p {
 }
 
 .btn-primary {
-  background-color: #AF5C51;
-  border-color: #AF5C51;
+  background-color: #1050A4;
+  border-color: #1050A4;
   transition: all ease 0.5s;
 }
 
 .btn-primary:hover {
-  background-color: #C5746A !important;
-  border-color: #C5746A !important;
+  background-color: #0E4894 !important;
+  border-color: #0E4894 !important;
 }
 
 .btn-light {
-  background-color: #E3E9EC;
-  border-color: #E3E9EC;
+  background-color: #E6E8EB;
+  border-color: #E6E8EB;
   transition: all ease 0.5s;
 }
 
 .btn-light:hover {
-  background-color: #B5C1C7 !important;
-  border-color: #B5C1C7 !important;
+  background-color: #CDD2D7 !important;
+  border-color: #CDD2D7 !important;
 }
 
 .modal {
@@ -250,13 +249,13 @@ p {
   border-bottom-left-radius: 0px !important;
   border-left: none;
   color: #FFFFFF !important;
-  background: #AF5C51 !important;
+  background: #1050A4 !important;
   border-radius: 5px;
   transition: all ease 0.5s;
 }
 
 .search-btn:hover {
-  background-color: #C5746A !important;
+  background-color: #1C59A9 !important;
 }
 
 .form-control:focus {
@@ -511,7 +510,7 @@ p {
   height: 1px;
   bottom: 7px;
   left: 0;
-  background-color: #C5746A;
+  background-color: #1050A4;
   visibility: visible;
   transform: scaleX(1);
   transition: all 0.3s ease-in-out 0s;
@@ -535,7 +534,7 @@ p {
   height: 1px;
   bottom: 7px;
   left: 0;
-  background-color: #375E77;
+  background-color: #1050A4;
   visibility: visible;
   transform: scaleX(1);
   transition: all 0.3s ease-in-out 0s;
